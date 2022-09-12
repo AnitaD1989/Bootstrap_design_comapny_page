@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scroll;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+header {
+background-image: url("https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+height: 100vh;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar-brand {
+color:gold !important;
+font-family:'Petemoss', cursive;
+font-size: 50px;
+}
+
+.text-white {
+  padding-top: 120px;
+}
+
+section {
+ padding-top: 100px;
+ padding-bottom: 120px;
+
+}
+.text-white h2 {
+  font-family:'Petemoss', cursive;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.service h2 {
+  font-size: 50px;
+}
+
+h5 {
+  color: grey;
+  font-style: italic;
+}
+
+p {
+  color: grey;
+  text-align: left;
+  
+}
+
+.service {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+
+.service i {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  font-size: 80px;
+  color: orange;
+}
+
+
+.portfolio .title {
+  padding-bottom: 80px;
+}
+ 
+
+footer {
+ padding-bottom: 30px;
+ padding-top: 30px;
+}
+
+h6 {
+ margin-left: 30px;
+}
